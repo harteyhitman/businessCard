@@ -1,5 +1,6 @@
 import React from "react"
 import Card from "./Card"
+import "./App.css"
 import Footer from "./Footer"
 import Instagram from "./images/instagram.png"
 import Twitter from "./images/twitter.png"
@@ -26,11 +27,8 @@ function App(){
       <Footer images={social.image} />
     ))
   }
-    {/* <Footer images={Instagram}/>
-    <Footer images={Twitter}/>
-    <Footer images={Facebook}/>
-    <Footer images={Github}/> */}
    </div>
+   
     
   )
 }

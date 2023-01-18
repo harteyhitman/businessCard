@@ -3,7 +3,8 @@ import React from "react"
 
 function Footer(props) {
     return(
-        <img src={props.images} alt="" />
+        
+        <img className="footer" src={props.images} alt="" />
     )
 }
 
